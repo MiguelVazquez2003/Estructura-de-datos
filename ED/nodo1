@@ -1,0 +1,7 @@
+struct nodo {
+	int valor;
+	struct nodo *siguiente;
+};
+
+typedef struct nodo NODO;
+typedef NODO *PTNODO;
